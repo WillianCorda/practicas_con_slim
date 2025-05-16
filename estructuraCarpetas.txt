@@ -1,0 +1,23 @@
+
+estructura propuesta por chat gpt 
+
+/mi-proyecto/
+│
+├── /public/              # Carpeta pública, accesible desde el navegador
+│   └── index.php         # Punto de entrada de la app (front controller)
+│
+├── /src/                 # Código fuente principal
+│   ├── /Controllers/     # Controladores que manejan las rutas
+│   ├── /Models/          # Modelos, lógica de negocio y base de datos
+│   ├── /Middleware/      # Middlewares personalizados(hasta no entenderla bien no la hago(preguntar a agustin))
+│   └── /Routes/          # Archivo o archivos que definen las rutas
+│
+├── /templates/           # Vistas si usás algún motor como Twig (opcional)
+│
+├── /logs/                # Archivos de logs (puede ser ignorado al principio)
+│
+├── /vendor/              # Dependencias instaladas por Composer (NO editar)
+│
+├── .env                  # Variables de entorno (opcional, con `vlucas/phpdotenv`)
+├── composer.json         # Archivo de configuración de Composer
+└── bootstrap.php         # Configuraciones iniciales (contenedor, middleware, rutas)
